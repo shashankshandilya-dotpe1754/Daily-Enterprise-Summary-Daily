@@ -39,12 +39,12 @@ SHEET_TAB = "Daily Summary"
 # Add/remove tables here if the ranges ever change.
 TABLES = [
     {
-        "range": "A27:R33",
+        "range": "A27:T36",
         "title": "Region-wise Summary Update",
         "filename": "region_wise_summary.png",
     },
     {
-        "range": "A81:R99",
+        "range": "A81:S99",
         "title": "SPOC-wise Summary Update",
         "filename": "spoc_wise_summary.png",
     },
