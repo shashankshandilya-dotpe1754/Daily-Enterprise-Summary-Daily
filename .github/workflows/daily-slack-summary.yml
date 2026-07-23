@@ -2,8 +2,8 @@ name: Daily Slack Summary
 
 on:
   schedule:
-    # # 02:00 UTC = 07:30 AM IST (UTC+5:30)
-    - cron: "0 2 * * *"
+   # 13:30 UTC = 07:00 PM IST (UTC+5:30)
+    - cron: "30 13 * * *"
   workflow_dispatch: {}   # lets you manually trigger a run from the Actions tab
 
 jobs:
